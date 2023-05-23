@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: monospace;
+  margin: 20px;
+  background-color: darkslategray;
+  height: 100%;
+}
+
+.day {
+  background: #fff;
+  color: #222;
+}
+.night {
+  background: #222;
+  color: #fff;
+}
+
+.day,
+.night {
+  width: 50%;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+}
